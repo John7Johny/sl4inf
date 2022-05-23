@@ -1,0 +1,136 @@
+body
+{
+	background-color: #666666;
+}
+
+#logo
+{
+	width: 900px;
+	height: 40px;
+	font-size: 35px;
+	color: white;
+	background-color: green;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 0px 5px 0px;
+	letter-spacing: 2px;
+	border-bottom: 2px solid #06661a;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 878px;
+	background-color: #1A4014;
+	padding: 10px;
+	color: white;
+	border-left: 1px solid #2D6624;
+	border-right: 1px solid #2D6624;
+	border-top: 1px solid #2D6624;
+	border-bottom: 1px solid #2D6624;
+}
+
+#spis
+{
+		width: 878px;
+		background-color: #587D53;
+		color: black;
+		font-size: 26px;
+}
+
+.slajd
+{
+	padding: 20px 40px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ol
+{
+	margin-top: 5px;
+}
+
+ol > li
+{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 5px;
+	letter-spacing: 3px;
+}
+
+ol > li > ul
+{
+	font-size: 18px;
+	text-transform: none;
+	font-weight: 400;
+	padding: 0px;
+	letter-spacing: 0px;
+	margin-top: 5px;
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+ol > li > ul > li
+{
+	margin: 0px;
+}
+
+ol > li > ul > li:before
+{
+	color: #485b3b;
+	content: "⚠";
+	margin-right: 5px;
+}
+
+h1
+{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+a:link
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: white;
+	text-decoration: none;
+}
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+
+.rectangle
+{
+	border-top: 2px solid #06661a;
+}
